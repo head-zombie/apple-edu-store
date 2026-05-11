@@ -1,0 +1,33 @@
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    font-size: 80px;
+    font-weight: 600;
+    max-width: 600px;
+    color: #117d70;
+}
+
+.hero-right {
+    text-align: right;
+}
+
+.hero-right p {
+    font-size: 28px;
+    font-weight: 600;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.hero-right a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.hero-right a:hover {
+    text-decoration: underline;
+}
