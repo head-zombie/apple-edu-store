@@ -1,0 +1,15 @@
+.category-section .container ul {
+    display: flex;
+    justify-content: start;
+    gap: 36px;
+    margin-top: 80px;
+}
+
+.category-section figure {
+    text-align: center;
+}
+
+.category-section figure figcaption {
+    margin-top: 8px;
+    font-weight: 600;
+}
