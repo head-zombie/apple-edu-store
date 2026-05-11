@@ -1,7 +1,7 @@
 .category-section .container ul {
     display: flex;
     justify-content: start;
-    gap: 36px;
+    gap: 24px;
     margin-top: 80px;
 }
 
