@@ -1,0 +1,35 @@
+.nav-container {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 12px;
+}
+
+.top-nav {
+    background-color: #e8e8ed;
+}
+
+
+.top-nav .nav-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-nav .nav-container span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom-nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    gap: 45px;
+}
