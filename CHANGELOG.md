@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/head-zombie/apple-edu-store/compare/v1.1.0...v1.2.0) (2026-05-13)
+
+
+### Features
+
+* add slider, category, benefit, button sections and setup GrowthBook ([5b514ba](https://github.com/head-zombie/apple-edu-store/commit/5b514ba6dd22c3b612ad41c3c8da4ab978ca3cac))
+
 ## [1.1.0](https://github.com/head-zombie/apple-edu-store/compare/v1.0.0...v1.1.0) (2026-05-11)
 
 
