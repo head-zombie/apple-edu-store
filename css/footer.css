@@ -1,0 +1,153 @@
+.footer {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: 12px;
+    line-height: 1.3333;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer .container {
+    max-width: 1000px;
+}
+
+.footer-disclaimer {
+    color: #6e6e73;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 20px;
+}
+
+.footer-disclaimer p {
+    margin-bottom: 12px;
+}
+
+.footer-disclaimer a {
+    color: #1d1d1f;
+    text-decoration: underline;
+}
+
+.footer-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 22px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.breadcrumb-separator {
+    color: #6e6e73;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.footer-nav-column-section {
+    margin-bottom: 24px;
+}
+
+.footer-nav-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-nav-item {
+    margin-bottom: 8px;
+}
+
+.footer-nav-item a {
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.footer-nav-item a:hover {
+    text-decoration: underline;
+    color: #1d1d1f;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    color: #6e6e73;
+}
+
+.footer-contact {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 15px;
+}
+
+.footer-contact a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.footer-legal {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "copyright country"
+        "links country";
+    row-gap: 5px;
+    align-items: center;
+}
+
+.footer-copyright {
+    grid-area: copyright;
+    font-size: 12px;
+}
+
+.footer-country {
+    grid-area: country;
+    font-size: 12px;
+    color: #1d1d1f;
+    cursor: pointer;
+}
+
+.footer-country:hover {
+    text-decoration: underline;
+}
+
+.footer-legal-links {
+    grid-area: links;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-legal-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-legal-item:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
+    color: #d2d2d7;
+    font-size: 10px;
+}
+
+.footer-legal-item a {
+    color: #6e6e73;
+    font-size: 12px;
+}
+
+.footer-legal-item a:hover {
+    color: #1d1d1f;
+    text-decoration: underline;
+}

@@ -13,3 +13,18 @@
     margin-top: 8px;
     font-weight: 600;
 }
+
+@media (max-width: 1024px) {
+    .category-section .container ul {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .category-section .container ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-section figure img {
+        width: 80px;
+    }
+}

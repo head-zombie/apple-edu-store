@@ -7,7 +7,10 @@
 .hero-left {
     font-size: 80px;
     font-weight: 600;
-    max-width: 600px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    max-width: 640px;
     color: #117d70;
 }
 
@@ -30,4 +33,32 @@
 
 .hero-right a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .hero-left {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-left {
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+    .hero-right {
+        text-align: center;
+    }
+
+    .hero-right p {
+        font-size: 20px;
+        max-width: 100%;
+    }
 }

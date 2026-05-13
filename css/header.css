@@ -32,3 +32,23 @@ nav a {
     margin-bottom: 80px;
     gap: 44px;
 }
+
+@media (max-width: 1024px) {
+    .bottom-nav-list {
+        gap: 20px;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .bottom-nav-list::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-nav .nav-container {
+        font-size: 10px;
+    }
+}

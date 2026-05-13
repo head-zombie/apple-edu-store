@@ -1,0 +1,40 @@
+.quick-links-section {
+    background-color: #f5f5f7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quick-links-section .container {
+    max-width: 1512px;
+}
+
+.quick-links-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 15px;
+}
+
+.quick-links-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+.quick-links-item a {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid #1d1d1f;
+    border-radius: 20px;
+    color: #1d1d1f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+}
+
+.quick-links-item a:hover {
+    background-color: #1d1d1f;
+    color: #ffffff;
+    border-color: #1d1d1f;
+}

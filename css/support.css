@@ -1,0 +1,18 @@
+.support-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.support-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.support-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
