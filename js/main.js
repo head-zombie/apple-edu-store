@@ -74,20 +74,6 @@ async function initGrowthBook() {
     const featureElement = document.getElementById("feature-form");
     if (featureElement) {
         featureElement.style.display = isFeatureEnabled ? "block" : "none";
-        
-        // Also allow GrowthBook to control the button's text and color
-        const ctaButton = featureElement.querySelector(".btn-primary");
-        if (ctaButton) {
-            const buttonText = gb.getFeatureValue("button-text", "");
-            const buttonColor = gb.getFeatureValue("button-color", "");
-            
-            if (buttonText) {
-                ctaButton.textContent = buttonText;
-            }
-            if (buttonColor) {
-                ctaButton.style.backgroundColor = buttonColor;
-            }
-        }
     }
 }
 
