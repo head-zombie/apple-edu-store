@@ -2,7 +2,6 @@
     background-color: #007aff;
     color: #ffffff;
     border: none;
-    border-radius: 24px;
     padding: 12px 32px;
     font-size: 16px;
     font-weight: 600;
@@ -12,8 +11,40 @@
     text-align: center;
     text-decoration: none;
     width: fit-content;
+    
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0 4px 14px rgba(0, 122, 255, 0.3);
+    border-radius: 24px;
+    transition: all 0.3s ease;
 }
 
 .btn-submit:hover, .btn-primary:hover {
-    background-color: #005bb5;
+    opacity: 0.85;
+    box-shadow: 0 6px 20px rgba(0, 122, 255, 0.5);
 }
+
+@keyframes complexMove {
+  0% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+  33% {
+    transform: translate(100px, 0);
+    background-color: blue;
+  }
+  66% {
+    transform: translate(50px, 100px);
+    background-color: green;
+  }
+  100% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+}
+
+.btn-primary {
+    animation: complexMove 4s infinite ease-in-out;
+}
+
+

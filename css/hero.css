@@ -44,7 +44,6 @@
 @media (max-width: 768px) {
     .hero-section .container {
         flex-direction: column;
-        text-align: center;
         gap: 20px;
     }
 
@@ -54,7 +53,7 @@
     }
 
     .hero-right {
-        text-align: center;
+        text-align: left;
     }
 
     .hero-right p {

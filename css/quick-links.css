@@ -38,3 +38,14 @@
     color: #ffffff;
     border-color: #1d1d1f;
 }
+
+@media (max-width: 768px) {
+    .quick-links-list {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .quick-links-title {
+        font-size: 20px;
+    }
+}

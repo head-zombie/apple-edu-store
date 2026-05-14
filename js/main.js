@@ -35,6 +35,23 @@ document.addEventListener('DOMContentLoaded', () => {
     wrapper.addEventListener('scroll', updateButtons);
 
     updateButtons();
+    
+    // Support button animation logic
+    const supportButton = document.querySelector('.support-button');
+    if (supportButton) {
+        supportButton.addEventListener('click', () => {
+            supportButton.classList.add('animating');
+            
+            // Wait for animation to finish then show feature-form
+            setTimeout(() => {
+                supportButton.classList.remove('animating');
+                const featureForm = document.getElementById('feature-form');
+                if (featureForm) {
+                    featureForm.style.display = 'block';
+                }
+            }, 2000);
+        });
+    }
 });
 
 const { GrowthBook } = growthbook;
